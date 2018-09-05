@@ -14,18 +14,17 @@ $(document).ready(function () {
     $("#submit-btn").click(function () {
         //Creating variables for Train Schedule
         var yourName = $("#your-name").val().trim();
-        var yourOccupation = $("#occupation").val().trim();
-        var Experience = $("#employed").val().trim();
-        var startDate = $("#start-date").val().trim();
+        var yourEmail = $("#your-email").val().trim();
+        var Employer = $("#Employer").val().trim();
         console.log(yourName);
         alert("works");
 
         database.ref().push({
 
             Name: yourName,
-            Occupation: yourOccupation,
-            Employment: startDate,
-            Experience: Experience,
+            Email: yourEmail,
+            //Employer: startDate,
+            Employer: Employer,
 
             dateAdded: firebase.database.ServerValue.TIMESTAMP
 
@@ -33,28 +32,28 @@ $(document).ready(function () {
     });
 
     database.ref().orderByChild("dateAdded").on("child_added", function (childSnapshot) {
-        var startDate = (childSnapshot.val().Employment);
+        //var startDate = (childSnapshot.val().Employer);
         var dateFormat = moment().format('LLLL');
 
-        var Experience = moment($("#employed").val().trim(), "MMMM Do YYYY").format();
+        var Employer = moment($("#Employer").val().trim(), "MMMM Do YYYY").format();
         var currentTime = moment();
-        var nextAppoint = moment(childSnapshot.val().Experience, "HH:mm");
-        while (nextAppoint.isBefore(currentTime)) {
-            nextAppoint.add(startDate, "minutes");
-        }
-        var minutesAway = Math.abs(currentTime.diff(nextAppoint, 'minutes'));
-        console.log(minutesAway);
-        console.log(nextAppoint);
-        var minutesAwayTd = $("<td>").html(minutesAway);
+        //var nextAppoint = moment(childSnapshot.val().Employer, "HH:mm");
+        //while (nextAppoint.isBefore(currentTime)) {
+            //nextAppoint.add(startDate, "minutes");
+        //}
+        //var minutesAway = Math.abs(currentTime.diff(nextAppoint, 'minutes'));
+        //console.log(minutesAway);
+        //console.log(nextAppoint);
+        //var minutesAwayTd = $("<td>").html(minutesAway);
         var tBody = $("tbody");
         var tRow = $("<tr>");
         yourName = $("<td>").html(childSnapshot.val().Name);
-        yourOccupation = $("<td>").html(childSnapshot.val().Occupation);
-        startDate = $("<td>").html(childSnapshot.val().Employment);
-        Experience = $("<td>").html(childSnapshot.val().Experience);
-        nextAppointTd = $("<td>").html(nextAppoint.format('LT'));
+        yourEmail = $("<td>").html(childSnapshot.val().Email);
+        //startDate = $("<td>").html(childSnapshot.val().Employer);
+        Employer = $("<td>").html(childSnapshot.val().Employer);
+        //nextAppointTd = $("<td>").html(nextAppoint.format('LT'));
 
-        tRow.append(yourName, yourOccupation, startDate, Experience, nextAppointTd, minutesAwayTd);
+        tRow.append(yourName, yourEmail, Employer);
         tBody.append(tRow);
     });
 
