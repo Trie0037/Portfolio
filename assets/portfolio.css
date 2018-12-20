@@ -25,7 +25,7 @@ body {
 }
 
 #topJumbotron {
-    background-image: url("../assets/images/Iceland.jpeg");
+    background-image: url("../assets/images/banner.jpg");
     margin-bottom: 0px;
     height: 100%;
 }
@@ -111,6 +111,10 @@ body {
     background-color: transparent;
     border: 0;
     width: 200px;
+}
+
+#createCards {
+    display: inline-flex;
 }
 
 /*Modal Animation */
