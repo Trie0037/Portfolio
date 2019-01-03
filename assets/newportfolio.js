@@ -40,15 +40,20 @@ $(document).ready(function () {
 
     function createCard() {
         for(var i = 0; i < indyProjects.length; i++) {
+            var row =("<br>")
+            if (i % 3 && i != 0) {  
+                $('#createCards').append(row);
+            }
+            
             var title = indyProjects[i].title;
             var href = indyProjects[i].href;
             var img = indyProjects[i].img;
             var alt = indyProjects[i].alt;
-            var card = "<div class='col-lg-2 projects'>"
+            var card = "<div class='col-md-4 projects'>"
             + "<a title='" + title + "' href='" + href + "' target='_blank'>"
             + "<img src='" + img + "' style='width: 100%; height: 170px;' alt='" + alt + "'>"
             + "</a><p class='text-center'><strong class='projectName'>" + title + "</strong></p></div>";
-            $("#createCards").append(card)
+            $("#createCards").append(card);
         }
     };
 
