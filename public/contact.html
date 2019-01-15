@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="portfolio.css">
+
+    <title>Contact</title>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <nav class="navbar-expand-lg">
+
+                    <div class="pull-right" id="navbarSupportedContent">
+
+                        <li>
+                            <a href="index.html">Portfolio |</a>
+                        </li>
+
+                        <li>
+                            <a href="resume.html">About |</a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+
+                    </div>
+
+                </nav>
+
+
+            </div>
+        </div>
+
+        <br>
+
+        <div class="jumbotron" id="topJumbotron" style="border:  1px; height: 240px;">
+            <strong style="font-size: 40px; color: rgb(37, 165, 165)">Contact Info</strong>
+
+
+            <div style="background-color:lightslategray;border:  1px;">
+                <div class="emplyHeader" style="background-color:rgb(37, 165, 165); color: white; padding: 0px;">
+                    <strong style="font-size: 18px">Response Info</strong>
+                </div>
+                <div>
+                    <table id="table" class="table">
+                        <thead>
+                            <tr>
+                                <th>Your Name</th>
+                                <th>Your Email</th>
+                                <th>Employer</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+            </div>
+        </div>
+        <br>
+        <div class="add-name" style="background-color: lightslategray; border:  1px;">
+            <div class=panelheading style="background-color: rgb(37, 165, 165); color: white; padding: 2px;">
+                <strong style="font-size: 18px">Add Name</strong>
+            </div>
+            <form style="padding: 1px;">
+                <div class="form-group">
+                    <label for="your-name">Your Name:</label>
+                    <input type="text" required class="form-control" id="your-name" placeholder="Please type in your name.">
+                </div>
+                <div class="form-group">
+                    <label for="email">Your email:</label>
+                    <input type="text" required class="form-control" id="your-email" placeholder="Please type in your email.">
+                </div>
+                <div class="form-group">
+                    <label for="employed">Employer:</label>
+                    <input type="text" required class="form-control" id="Employer" placeholder="Who is your employer?">
+                </div>
+                <button type="submit" class="btn btn-default" id="submit-btn">Submit</button>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+    <script type="text/javascript" src="portfolio.js"></script>
+
+    <footer>
+        Copyright©Justin Trieschmann
+    </footer>
+
+</body>
+
+</html>
