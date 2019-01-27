@@ -5,27 +5,29 @@
   margin-right: auto;
 } */
 .card-deck {
-    opacity: 0.8;
-    padding: 35px;
+  opacity: 0.8;
+  padding: 35px;
 }
 
 .navbar-expand-lg li {
   display: inline;
   list-style-type: none;
   margin: auto;
+  /* width: 720px;
+  height: 29.6px; */
 }
 
 div.pull-right {
   text-align: right;
 }
 
-a {
+/* a {
   text-decoration: none;
   color: grey;
-}
+} */
 
 body {
-  margin: auto;  
+  margin: auto;
   background-image: url("./assets/images/PortfolioBG.jpg");
   background-size: cover;
 }
@@ -65,6 +67,8 @@ body {
 #profileImage {
   padding: 25px;
   text-align: center;
+  border-color: orangered;
+  border-width: 10px;
 }
 
 #profilePic {
@@ -88,6 +92,10 @@ body {
   list-style-type: none;
   display: inline;
   margin-right: 10px;
+}
+
+img {
+    float: right;
 }
 
 #modalText {
@@ -134,7 +142,7 @@ body {
 }
 
 #submit-btn {
-    color: tomato;
+  color: tomato;
 }
 
 /*Modal Animation */
@@ -180,6 +188,7 @@ ul {
 
 a {
   color: rgb(37, 165, 165);
+  text-decoration: underline;
 }
 
 a:visited {
