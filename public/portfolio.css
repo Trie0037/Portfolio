@@ -1,302 +1,334 @@
-.navbar-expand-lg {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
-    text-decoration: none;
-    margin-right: auto;
+/* .navbar-expand-lg {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  margin-right: auto;
+} */
+.card-deck {
+    opacity: 0.8;
+    padding: 35px;
 }
 
 .navbar-expand-lg li {
-    display: inline;
-    list-style-type: none;
+  display: inline;
+  list-style-type: none;
+  margin: auto;
 }
 
 div.pull-right {
-    text-align: right;
+  text-align: right;
 }
 
 a {
-    text-decoration: none;
-    color: grey;
+  text-decoration: none;
+  color: grey;
 }
 
 body {
-    background-image: url("./assets/images/vintage-concrete.png");
-    background-size: cover;
+  margin: auto;  
+  background-image: url("./assets/images/PortfolioBG.jpg");
+  background-size: cover;
 }
 
 #topJumbotron {
-    background-image: url("./assets/images/banner.jpg");
-    margin-bottom: 0px;
-    height: 100%;
+  background-image: url("./assets/images/banner.jpg");
+  margin-bottom: 0px;
+  height: 100%;
+  opacity: 0.9;
 }
 
 .form-group {
-    height: 50px;
-    
+  height: 65px;
+}
+
+.add-name {
+  opacity: 0.9;
 }
 
 #myName {
-    font-size: 50px;
-    text-align: center;
-    color: rgb(37, 165, 165);
-    font-feature-settings: "akhn";
+  font-size: 50px;
+  text-align: center;
+  color: rgb(37, 165, 165);
+  font-feature-settings: "akhn";
 }
 
 #sellBar {
-    text-align: center;
-    color: lightblue;
-    background-color: #36454f;
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 25px;
-    padding: 5px;
+  text-align: center;
+  color: lightblue;
+  background-color: #36454f;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  margin: auto;
 }
 
 #profileImage {
-    text-align: center;
+  padding: 25px;
+  text-align: center;
 }
 
 #profilePic {
-    height: 270px;
-    width: 200px;
+  height: 270px;
+  width: 200px;
 }
 
 #externalLinks {
-    height: 35px;
-    width: 100%;
+  padding: 25px;
+  height: 35px;
+  width: 100%;
 }
 
 #externalLinks ul {
-    margin: 40;
-    padding: 0;
-    margin-top: 15px;
+  margin: 40;
+  padding: 0;
+  margin-top: 15px;
 }
 
 #externalLinks ul li {
-    list-style-type: none;
-    display: inline;
-    margin-right: 10px;
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
 }
 
 #modalText {
-    border: 1px solid black;
-    margin: auto;
+  border: 1px solid black;
+  margin: auto;
 }
 
 .modal-content {
-    margin: auto;
-    width: 500px;
-    
+  margin: auto;
+  width: 500px;
 }
 
 #resume {
-    margin-top: 25px;
-    height: 600px;
+  margin-top: 25px;
+  height: 600px;
 }
 
 #resumeModal {
-    background: rgba(0,0,0,0.4);
+  background: rgba(0, 0, 0, 0.4);
 }
 
-#close{
-    margin: auto;
-    width: 15%;
+#close {
+  margin: auto;
+  width: 15%;
+  color: rgb(243, 186, 81);
 }
 
 #resumeIcon {
-    width: 18%;
-    float: left;
+  width: 18%;
+  float: left;
 }
 
 #resumeBtn {
-    background-color: transparent;
-    border: 0;
-    width: 200px;
+  background-color: transparent;
+  border: 0;
+  width: 200px;
+  padding: 15px;
+  margin: auto;
+  color: orange;
 }
 
 #createCards {
-    display: inline-flex;
+  display: inline-flex;
+}
+
+#submit-btn {
+    color: tomato;
 }
 
 /*Modal Animation */
 @-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
 }
 
 @keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
 }
 
 /*Menu Bar*/
 
 .menuBar {
-    background-color: #36454f;
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-    color: rgb(37, 165, 165);
+  background-color: #36454f;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  color: rgb(37, 165, 165);
 }
 
 ul {
-    list-style-type: none;
-    text-align: center;
-    font-size: 24px;
-    color: rgb(37, 165, 165);
-    font-family: Verdana, Geneva, sans-serif
+  list-style-type: none;
+  text-align: center;
+  font-size: 24px;
+  color: rgb(37, 165, 165);
+  font-family: Verdana, Geneva, sans-serif;
 }
 
 a {
-    color: rgb(37, 165, 165);
+  color: rgb(37, 165, 165);
 }
 
 a:visited {
-    color: rgb(36, 76, 109);
+  color: rgb(36, 76, 109);
 }
 
 */ [class*="col-"] {
-    width: 100%;
+  width: 100%;
 }
 
 @media screen and (max-width: 980px) {
-    #topJumbotron {
+  /* #topJumbotron {
         background-image: url("./assets/images/listBackground.jpg");
-    }
-    .col-1 {
-        width: 8.33%;
-    }
-    .col-2 {
-        width: 16.66%;
-    }
-    .col-3 {
-        width: 25%;
-    }
-    .col-4 {
-        width: 33.33%;
-    }
-    .col-5 {
-        width: 41.66%;
-    }
-    .col-6 {
-        width: 50%;
-    }
-    .col-7 {
-        width: 58.33%;
-    }
-    .col-8 {
-        width: 66.66%;
-    }
-    .col-9 {
-        width: 75%;
-    }
-    .col-10 {
-        width: 83.33%;
-    }
-    .col-11 {
-        width: 91.66%;
-    }
-    .col-12 {
-        width: 100%;
-    }
-    @media screen and (max-width: 768px) {
-        #topJumbotron {
+    } */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  @media screen and (max-width: 768px) {
+    /* #topJumbotron {
             background-image: url("./assets/images/Mountains.jpg");
             width: 100%;
-        }
-        .col-1 {
-            width: 8.33%;
-        }
-        .col-2 {
-            width: 16.66%;
-        }
-        .col-3 {
-            width: 25%;
-        }
-        .col-4 {
-            width: 33.33%;
-        }
-        .col-5 {
-            width: 41.66%;
-        }
-        .col-6 {
-            width: 50%;
-        }
-        .col-7 {
-            width: 58.33%;
-        }
-        .col-8 {
-            width: 66.66%;
-        }
-        .col-9 {
-            width: 75%;
-        }
-        .col-10 {
-            width: 83.33%;
-        }
-        .col-11 {
-            width: 91.66%;
-        }
-        .col-12 {
-            width: 100%;
-        }
+        } */
+    .col-1 {
+      width: 8.33%;
     }
-    @media screen and (max-width: 640px) {
-        #topJumbotron {
-            background-image: url("./assets/images/banner.jpg");
-            width: 100%;
-        }
-        .col-xs-1 {
-            width: 8.33%;
-        }
-        .col-xs-2 {
-            width: 16.66%;
-        }
-        .col-xs-3 {
-            width: 25%;
-        }
-        .col-xs-4 {
-            width: 33.33%;
-        }
-        .col-xs-5 {
-            width: 41.66%;
-        }
-        .col-xs-6 {
-            width: 50%;
-        }
-        .col-xs-7 {
-            width: 58.33%;
-        }
-        .col-xs-8 {
-            width: 66.66%;
-        }
-        .col-xs-9 {
-            width: 75%;
-        }
-        .col-xs-10 {
-            width: 83.33%;
-        }
-        .col-xs-11 {
-            width: 91.66%;
-        }
-        .col-xs-12 {
-            width: 100%;
-        }
+    .col-2 {
+      width: 16.66%;
     }
-    */ #menuBar {
-        width: 100%;
+    .col-3 {
+      width: 25%;
     }
-    #portfolio {
-        width: 100%;
+    .col-4 {
+      width: 33.33%;
     }
+    .col-5 {
+      width: 41.66%;
+    }
+    .col-6 {
+      width: 50%;
+    }
+    .col-7 {
+      width: 58.33%;
+    }
+    .col-8 {
+      width: 66.66%;
+    }
+    .col-9 {
+      width: 75%;
+    }
+    .col-10 {
+      width: 83.33%;
+    }
+    .col-11 {
+      width: 91.66%;
+    }
+    .col-12 {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    #topJumbotron {
+      background-image: url("./assets/images/banner.jpg");
+      width: 100%;
+    }
+    .col-xs-1 {
+      width: 8.33%;
+    }
+    .col-xs-2 {
+      width: 16.66%;
+    }
+    .col-xs-3 {
+      width: 25%;
+    }
+    .col-xs-4 {
+      width: 33.33%;
+    }
+    .col-xs-5 {
+      width: 41.66%;
+    }
+    .col-xs-6 {
+      width: 50%;
+    }
+    .col-xs-7 {
+      width: 58.33%;
+    }
+    .col-xs-8 {
+      width: 66.66%;
+    }
+    .col-xs-9 {
+      width: 75%;
+    }
+    .col-xs-10 {
+      width: 83.33%;
+    }
+    .col-xs-11 {
+      width: 91.66%;
+    }
+    .col-xs-12 {
+      width: 100%;
+    }
+  }
+  */ #menuBar {
+    width: 100%;
+  }
+  #portfolio {
+    width: 100%;
+  }
 }
 
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: gray;
-    color: black;
-    text-align: center;
-    padding: 16px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: black;
+  text-align: center;
+  padding: 15x;
 }

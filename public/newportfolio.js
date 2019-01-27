@@ -25,7 +25,7 @@ $(document).ready(function () {
             alt: "Burger"
         },
         {
-            title: "ReactCLICKY",
+            title: "REACTCLICKY",
             href: "https://trie0037.github.io/ReactCLICKY/",
             img: "assets/images/SouthPark.png",
             alt: "Cartman"
@@ -51,8 +51,8 @@ $(document).ready(function () {
             var alt = indyProjects[i].alt;
             var card = "<div class='col-md-4 projects'>"
             + "<a title='" + title + "' href='" + href + "' target='_blank'>"
-            + "<img src='" + img + "' style='width: 100%; height: 170px;' alt='" + alt + "'>"
-            + "</a><p class='text-center'><strong class='projectName'>" + title + "</strong></p></div>";
+            + "<img src='" + img + "' style='width: 100%; height: 170px; opacity: 0.7;' alt='" + alt + "'>"
+            + "</a><p class='text-center'><strong class='projectName'><font color='orange'>" + title + "</font></strong></p></div>";
             $("#createCards").append(card);
         }
     };
