@@ -64,16 +64,11 @@ body {
   margin: auto;
 }
 
-#profileImage {
-  padding: 25px;
-  text-align: center;
-  border-color: orangered;
-  border-width: 10px;
-}
-
 #profilePic {
-  height: 270px;
-  width: 200px;
+  padding: 15px;
+  height: 255px;
+  float: inherit;
+  
 }
 
 #externalLinks {
