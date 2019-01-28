@@ -1,37 +1,18 @@
-/* .navbar-expand-lg {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 25px;
-  text-decoration: none;
-  margin-right: auto;
-} */
-.card-deck {
-  opacity: 0.8;
-  padding: 35px;
+body {
+  margin: auto;
+  background-image: url("./assets/images/PortfolioBG.jpg");
+  background-size: cover;
+  height: 100%;
 }
 
 .navbar-expand-lg li {
   display: inline;
   list-style-type: none;
   margin: auto;
-  /* width: 720px;
-  height: 29.6px; */
 }
 
 div.pull-right {
   text-align: right;
-}
-
-/* a {
-  text-decoration: none;
-  color: grey;
-} */
-
-body {
-  margin: auto;
-  background-image: url("./assets/images/PortfolioBG.jpg");
-  background-size: cover;
-  height: 100%;
-  
 }
 
 #topJumbotron {
@@ -39,14 +20,6 @@ body {
   /* margin-bottom: 100px; */
   height: 100%;
   opacity: 0.6;
-}
-
-.form-group {
-  height: 65px;
-}
-
-.add-name {
-  opacity: 0.9;
 }
 
 #myName {
@@ -70,7 +43,6 @@ body {
   padding: 15px;
   height: 275px;
   float: inherit;
-  
 }
 
 #externalLinks {
@@ -92,33 +64,17 @@ body {
   /* margin-right: 10px; */
 }
 
+#createCards {
+  display: inline-flex;
+}
+
+.card-deck {
+  opacity: 0.8;
+  padding: 35px;
+}
+
 img {
-    float: right;
-}
-
-#modalText {
-  border: 1px solid black;
-  margin: auto;
-}
-
-.modal-content {
-  margin: auto;
-  width: 500px;
-}
-
-#resume {
-  margin-top: 25px;
-  height: 600px;
-}
-
-#resumeModal {
-  background: rgba(0, 0, 0, 0.4);
-}
-
-#close {
-  margin: auto;
-  width: 15%;
-  color: rgb(243, 186, 81);
+  float: right;
 }
 
 #resumeIcon {
@@ -135,12 +91,47 @@ img {
   color: orange;
 }
 
-#createCards {
-  display: inline-flex;
+#resume {
+  margin-top: 25px;
+  height: 624px;
+  margin-left: initial;
+}
+
+#modalText {
+  border: 1px solid black;
+  margin: auto;
+}
+
+#resumeModal {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  margin: auto;
+  width: 500px;
+}
+
+#close {
+  margin: auto;
+  width: 15%;
+  color: rgb(243, 186, 81);
+}
+
+table {
+    color:rgb(66, 6, 6);
+    text-overflow: clip;
+}
+
+.form-group {
+  height: 65px;
+}
+
+.add-name {
+  opacity: 0.9;
 }
 
 #submit-btn {
-  color: tomato;
+  color:rgb(184, 16, 16);
 }
 
 /*Modal Animation */
