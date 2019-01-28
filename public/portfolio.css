@@ -30,13 +30,15 @@ body {
   margin: auto;
   background-image: url("./assets/images/PortfolioBG.jpg");
   background-size: cover;
+  height: 100%;
+  
 }
 
 #topJumbotron {
-  background-image: url("./assets/images/banner.jpg");
-  margin-bottom: 0px;
+  /* background-image: url("./assets/images/banner.jpg"); */
+  /* margin-bottom: 100px; */
   height: 100%;
-  opacity: 0.9;
+  opacity: 0.6;
 }
 
 .form-group {
@@ -66,7 +68,7 @@ body {
 
 #profilePic {
   padding: 15px;
-  height: 255px;
+  height: 275px;
   float: inherit;
   
 }
@@ -78,15 +80,16 @@ body {
 }
 
 #externalLinks ul {
-  margin: 40;
-  padding: 0;
-  margin-top: 15px;
+  /* margin: 100; */
+  /* padding: 40; */
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 #externalLinks ul li {
   list-style-type: none;
   display: inline;
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 
 img {
@@ -197,6 +200,7 @@ a:visited {
 @media screen and (max-width: 980px) {
   /* #topJumbotron {
         background-image: url("./assets/images/listBackground.jpg");
+        height: 100%;
     } */
   .col-1 {
     width: 8.33%;
@@ -277,10 +281,10 @@ a:visited {
     }
   }
   @media screen and (max-width: 640px) {
-    #topJumbotron {
+    /* #topJumbotron {
       background-image: url("./assets/images/banner.jpg");
       width: 100%;
-    }
+    } */
     .col-xs-1 {
       width: 8.33%;
     }
