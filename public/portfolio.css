@@ -94,9 +94,9 @@ img {
 #resume {
   text-align: center; 
   color: red; 
-  font-size: 50px;
+  font-size: 20px;
   margin-top: 25px;
-  height: 624px;
+  height: 625px;
   margin-left: initial;
 }
 
@@ -115,7 +115,7 @@ img {
 }
 
 #close {
-  text-align: center;
+  /* text-align: center; */
   margin: auto;
   width: 15%;
   color: rgb(243, 186, 81);
@@ -123,7 +123,7 @@ img {
 
 table {
     color:rgb(66, 6, 6);
-    text-align: center;
+    /* text-align: center; */
 }
 
 .form-group {
