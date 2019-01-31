@@ -1,10 +1,10 @@
 $(document).ready(function () {
     var indyProjects = [
         {
-            title: "Unit 4 Game",
+            title: "Crystal Game",
             href: "https://trie0037.github.io/Unit-4-game/",
             img: "assets/images/Crystal4.jpg",
-            alt: "Unit 4 Game"
+            alt: "Crystal Game"
         },
         {
             title: "Vikings Trivia",
