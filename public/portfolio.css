@@ -23,14 +23,18 @@ div.pull-right {
 }
 
 #myName {
-  font-size: 50px;
+ 
   text-align: center;
+  font-size:10vw;
   color: rgb(37, 165, 165);
   font-feature-settings: "akhn";
+  font-size: 30px;
+  
 }
 
 #sellBar {
   text-align: center;
+  font-size:10vw;
   color: lightblue;
   background-color: #36454f;
   font-family: Verdana, Geneva, sans-serif;
@@ -41,12 +45,12 @@ div.pull-right {
 
 #profilePic {
   padding: 15px;
-  height: 275px;
-  float: inherit;
+  height: 300px;
+  /* float: inherit; */
 }
 
 #externalLinks {
-  padding: 25px;
+  /* padding: 25px; */
   height: 35px;
   width: 100%;
 }
@@ -333,5 +337,5 @@ footer {
   background-color: gray;
   color: black;
   text-align: center;
-  padding: 15x;
+  padding: 8px;
 }
