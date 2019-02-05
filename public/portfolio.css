@@ -1,8 +1,18 @@
+/* div {
+  border: 1px solid red;
+} */
+
 body {
   margin: auto;
   background-image: url("./assets/images/PortfolioBG.jpg");
   background-size: cover;
   height: 100%;
+}
+
+.box {
+  padding: 10px;
+  background: rgb(0, 34, 46, 0.75);
+  color: whitesmoke;
 }
 
 .navbar-expand-lg li {
@@ -22,21 +32,26 @@ div.pull-right {
   /* opacity: 0.6; */
 }
 
+.jumbotron {
+  background: rgba(220, 220, 220, 0.15);
+  /* border: 1px solid rgb(138, 233, 236); */
+}
+
 #myName {
- 
   text-align: center;
-  font-size:10vw;
-  color: rgb(37, 165, 165);
-  font-feature-settings: "akhn";
+  font-size: 10vw;
+  color:rgb(121, 84, 88);
+  /* font-feature-settings: "akhn"; */
   font-size: 30px;
-  
 }
 
 #sellBar {
   text-align: center;
-  font-size:10vw;
-  color: lightblue;
-  background-color: #36454f;
+  font-size: 10vw;
+  background-color: rgb(208, 60, 72);
+  /* background-color: #36454f; */
+  color: rgb(138, 233, 236);
+  opacity: 0.7;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 20px;
   padding: 10px;
@@ -44,15 +59,14 @@ div.pull-right {
 }
 
 #profilePic {
-  padding: 15px;
-  height: 300px;
-  /* float: inherit; */
+  padding: 20px;
+  size: 100%;
 }
 
 #externalLinks {
   /* padding: 25px; */
-  height: 35px;
   width: 100%;
+  margin: auto;
 }
 
 #externalLinks ul {
@@ -73,13 +87,15 @@ div.pull-right {
 }
 
 .card-deck {
-  opacity: 0.8;
+  color: rgb(144, 92, 77);
+  opacity: 0.9;
   padding: 35px;
+  /* border: solid 1px red; */
 }
 
-img {
-  float: right;
-}
+/* img {
+  background-size: 100%;
+} */
 
 #resumeIcon {
   width: 18%;
@@ -96,8 +112,8 @@ img {
 }
 
 #resume {
-  text-align: center; 
-  color: red; 
+  text-align: center;
+  color: red;
   font-size: 20px;
   margin-top: 25px;
   height: 625px;
@@ -126,12 +142,16 @@ img {
 }
 
 table {
-    color:rgb(66, 6, 6);
-    /* text-align: center; */
+  color: rgb(233, 134, 41);
+  /* color: rgb(144, 92, 77); */
+  /* color:rgb(66, 6, 6); */
+  /* text-align: center; */
 }
 
 .form-group {
   height: 65px;
+  /* color: rgb(208, 60, 72); */
+  color: rgb(233, 134, 41);
 }
 
 .add-name {
@@ -139,7 +159,7 @@ table {
 }
 
 #submit-btn {
-  color:rgb(184, 16, 16);
+  color: rgb(184, 16, 16);
 }
 
 /*Modal Animation */
@@ -185,7 +205,6 @@ ul {
 
 a {
   color: rgb(37, 165, 165);
-  text-decoration: underline;
 }
 
 a:visited {
@@ -196,7 +215,16 @@ a:visited {
   width: 100%;
 }
 
+@media screen and (max-width: 991px) {
+  #profilePic {
+    padding: initial;
+  }
+}
+
 @media screen and (max-width: 980px) {
+  #profilePic {
+    padding: initial;
+  }
   /* #topJumbotron {
         background-image: url("./assets/images/listBackground.jpg");
         height: 100%;
@@ -238,6 +266,9 @@ a:visited {
     width: 100%;
   }
   @media screen and (max-width: 768px) {
+    #profilePic {
+      padding: initial;
+    }
     /* #topJumbotron {
             background-image: url("./assets/images/Mountains.jpg");
             width: 100%;
@@ -279,7 +310,10 @@ a:visited {
       width: 100%;
     }
   }
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 640px)  {
+    #profilePic {
+      padding: initial;
+    }
     /* #topJumbotron {
       background-image: url("./assets/images/banner.jpg");
       width: 100%;
