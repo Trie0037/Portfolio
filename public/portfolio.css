@@ -10,7 +10,7 @@ body {
 }
 
 .box {
-  padding: 20px;
+  padding: 22px;
   background: rgb(0, 34, 46, 0.75);
   color: silver;
 }
@@ -22,17 +22,17 @@ body {
 }
 
 /* div.pull-right*/
- p { 
+ /* p { 
   padding: 20px;
   text-align: left;
   overflow: wrap;
   margin: auto;
-}
+} */
 
 .jumbotron {
   background: rgba(220, 220, 220, 0.1);
   height: 100%; 
-  padding: 20px;
+  padding: 25px;
   width: 100%;
 }
 
@@ -52,7 +52,8 @@ body {
 
 #myName {
   text-align: center;
-  color: rgb(138, 233, 236);
+  color: rgb(36, 76, 109);
+  /* color: rgb(138, 233, 236); */
   background-color: rgb(208, 60, 72);
   font-size: 20px;
   padding: 2px;
@@ -61,7 +62,8 @@ body {
 
 #sellBar {
   text-align: center;
-  color: orange;
+  /* color: rgb(36, 76, 109); */
+  color: rgb(138, 233, 236);
   /* background-color: #36454f; */
   /* color:rgb(121, 84, 88); */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -102,8 +104,12 @@ body {
 .card-deck {
   color: rgb(144, 92, 77);
   opacity: 0.9;
-  padding: 35px;
+  padding: 25px;
   /* border: solid 1px red; */
+}
+
+.card-body {
+  background-color: rgb(138, 233, 236, 0.5);
 }
 
 /* img {
@@ -156,7 +162,7 @@ body {
 
 table {
   padding: 0px;
-  color: rgb(233, 134, 41);
+  color: rgb(138, 233, 236);
   /* color: rgb(144, 92, 77); */
   /* color:rgb(66, 6, 6); */
   /* text-align: center; */
@@ -165,7 +171,7 @@ table {
 .form-group {
   height: 100%;
   /* color: rgb(208, 60, 72); */
-  color: rgb(233, 134, 41);
+  color: rgb(138, 233, 236);
 }
 
 .add-name {

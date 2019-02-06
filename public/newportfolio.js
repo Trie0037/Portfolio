@@ -52,7 +52,7 @@ $(document).ready(function () {
             var card = "<div class='col-md-4 projects'>"
             + "<a title='" + title + "' href='" + href + "' target='_blank'>"
             + "<img src='" + img + "' style='width: 100%; height: 170px; opacity: 0.7;' alt='" + alt + "'>"
-            + "</a><p class='text-center'><strong class='projectName'><font color='crimson'>" + title + "</font></strong></p></div>";
+            + "</a><p class='text-center'><strong class='projectName'><font color='lightblue'>" + title + "</font></strong></p></div>";
             $("#createCards").append(card);
         }
     };
