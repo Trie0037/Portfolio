@@ -47,87 +47,67 @@
       <br />
 
       <div
-        class="jumbotron"
-        id="topJumbotron"
-        style="height: 100%; padding: 20px;"
-      >
-        <strong style="font-size:10vw; color: rgb(121, 84, 88); font-size: 30px;"
-        >Contact Info</strong
-        >
+      class="jumbotron"
+      id="topJumbotron"
+      style="height: 100%; padding: 22px;">
+          <div style="background: rgb(0, 34, 46, 0.75); border: 1px;">
 
-        <div style="background: rgb(0, 34, 46, 0.75); border: 1px;">
-          <div
-            class="emptyHeader"
-            style="color: rgb(138, 233, 236, 0.7); background-color: rgb(208, 60, 72, 0.7);"
-          >
-            <h2 style="font-size: 20px; padding: 2px;">Response Info</strong>
-          </div>
-          <div>
-            <table id="table" class="table">
-              <thead>
-                <tr>
-                  <th>Your Name</th>
-                  <th>Email</th>
-                  <th>Employer</th>
-                </tr>
-              </thead>
-              <tbody></tbody>
-            </table>
-          </div>
-        
+                        <div class="emptyHeader">Firebase Response</div>
+                          
+                              <div>
+                                <table id="table" class="table">
+                                  <thead>
+                                    <tr>
+                                      <th>Your Name</th>
+                                      <th>Email</th>
+                                      <th>Employer</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody></tbody>
+                                </table>
+                              </div>
+                         
 
-        <br />
-      </div>
+                    <div class="add-name"></div>
+                      <div class="panelheading">Contact Info</div>
 
-      <br />
-
-      <div
-        class="add-name"
-        style="background: rgb(0, 34, 46, 0.75); border:  1px;"
-      >
-        <div
-          class="panelheading"
-          style="color: rgb(138, 233, 236, 0.7); background-color: rgb(208, 60, 72, 0.7);"
-        >
-          <h2 style="font-size: 20px; padding: 2px;">Add Name</h2>
-        </div>
-
-        <form style="padding: 1px; opacity: 0.9;">
-          <div class="form-group">
-            <label for="your-name">Your Name:</label>
-            <input
-              type="text"
-              required
-              class="form-control"
-              id="your-name"
-              placeholder="Please type in your name."
-            />
-          </div>
-          <div class="form-group">
-            <label for="email">Your email:</label>
-            <input
-              type="text"
-              required
-              class="form-control"
-              id="your-email"
-              placeholder="Please type in your email."
-            />
-          </div>
-          <div class="form-group">
-            <label for="employed">Employer:</label>
-            <input
-              type="text"
-              required
-              class="form-control"
-              id="Employer"
-              placeholder="Who is your employer?"
-            />
-          </div>
-          <button type="submit" class="btn btn-default" id="submit-btn">
-            Submit
-          </button>
-        </form>
-      </div>
+                      <form style="padding: 1px; opacity: 0.9;">
+                        <div class="form-group">
+                          <label for="your-name">Your Name:</label>
+                          <input
+                            type="text"
+                            required
+                            class="form-control"
+                            id="your-name" style="background: rgb(0, 34, 46, 0.75)"
+                            placeholder="Please type in your name."
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Your email:</label>
+                          <input
+                            type="text"
+                            required
+                            class="form-control"
+                            id="your-email" style="background: rgb(0, 34, 46, 0.75)"
+                            placeholder="Please type in your email."
+                          />
+                        </div>
+                        <div class="form-group">
+                          <label for="employed">Employer:</label>
+                          <input
+                            type="text"
+                            required
+                            class="form-control"
+                            id="Employer" style="background: rgb(0, 34, 46, 0.75)"
+                            placeholder="Who is your employer?"
+                          />
+                        </div>
+                        <button type="submit" class="btn btn-default">
+                          Submit
+                        </button>
+                      </form>
+                    </div>
+      
     </div>
 
     <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
