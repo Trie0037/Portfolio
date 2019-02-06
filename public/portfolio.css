@@ -10,7 +10,7 @@ body {
 }
 
 .box {
-  padding: 10px;
+  padding: 0px;
   background: rgb(0, 34, 46, 0.75);
   color: whitesmoke;
 }
@@ -21,8 +21,12 @@ body {
   margin: auto;
 }
 
-div.pull-right {
-  text-align: right;
+/* div.pull-right*/
+ p { 
+  padding: 20px;
+  text-align: left;
+  overflow: wrap;
+  margin: auto;
 }
 
 #topJumbotron {
@@ -54,19 +58,23 @@ div.pull-right {
   opacity: 0.7;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 20px;
-  padding: 10px;
+  padding: 0px;
   margin: auto;
 }
 
 #profilePic {
-  padding: 20px;
-  size: 100%;
+  padding: 10px;
+  height: 275px;
+  float: left;
+  
+  
 }
+
 
 #externalLinks {
   /* padding: 25px; */
   width: 100%;
-  margin: auto;
+  /* margin: auto; */
 }
 
 #externalLinks ul {
@@ -215,16 +223,16 @@ a:visited {
   width: 100%;
 }
 
-@media screen and (max-width: 991px) {
+/* @media screen and (max-width: 991px) {
   #profilePic {
     padding: initial;
   }
-}
+} */
 
 @media screen and (max-width: 980px) {
-  #profilePic {
+  /* #profilePic {
     padding: initial;
-  }
+  } */
   /* #topJumbotron {
         background-image: url("./assets/images/listBackground.jpg");
         height: 100%;
@@ -266,9 +274,9 @@ a:visited {
     width: 100%;
   }
   @media screen and (max-width: 768px) {
-    #profilePic {
+    /* #profilePic {
       padding: initial;
-    }
+    } */
     /* #topJumbotron {
             background-image: url("./assets/images/Mountains.jpg");
             width: 100%;
@@ -311,9 +319,61 @@ a:visited {
     }
   }
   @media screen and (max-width: 640px)  {
-    #profilePic {
+    /* #profilePic {
       padding: initial;
+    } */
+    /* #topJumbotron {
+      background-image: url("./assets/images/banner.jpg");
+      width: 100%;
+    } */
+    .col-xs-1 {
+      width: 8.33%;
     }
+    .col-xs-2 {
+      width: 16.66%;
+    }
+    .col-xs-3 {
+      width: 25%;
+    }
+    .col-xs-4 {
+      width: 33.33%;
+    }
+    .col-xs-5 {
+      width: 41.66%;
+    }
+    .col-xs-6 {
+      width: 50%;
+    }
+    .col-xs-7 {
+      width: 58.33%;
+    }
+    .col-xs-8 {
+      width: 66.66%;
+    }
+    .col-xs-9 {
+      width: 75%;
+    }
+    .col-xs-10 {
+      width: 83.33%;
+    }
+    .col-xs-11 {
+      width: 91.66%;
+    }
+    .col-xs-12 {
+      width: 100%;
+    }
+  }
+  */ #menuBar {
+    width: 100%;
+  }
+  #portfolio {
+    width: 100%;
+  }
+
+   @media screen and (max-width: 640px)  {
+    /* #profilePic {
+      padding: initial;
+    } */
     /* #topJumbotron {
       background-image: url("./assets/images/banner.jpg");
       width: 100%;
