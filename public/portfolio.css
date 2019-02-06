@@ -32,23 +32,49 @@ body {
 .jumbotron {
   background: rgba(220, 220, 220, 0.1);
   height: 100%; 
-  padding: 25px;
+  /* padding: 25px; */
   width: 100%;
 }
 
-.emptyHeader {
-  color: rgb(138, 233, 236, 0.7); 
-  background-color: rgb(208, 60, 72);
+/* .emptyHeader {
   font-size: 20px; 
-  padding: 2px;
+} */
+
+#table {
+  height: 100%;
+  background: rgb(0, 34, 46); 
+  color: rgb(138, 233, 236);
+  /* color: rgb(144, 92, 77); */
+  /* color:rgb(66, 6, 6); */
+  /* text-align: center; */
 }
 
-.panelheading {
-  color: rgb(138, 233, 236, 0.7);
+.form {
+  height: 100%;
   background-color: rgb(208, 60, 72);
-  font-size: 20px; 
-  padding: 2px;
+  color: rgb(138, 233, 236);
 }
+
+.add-name {
+  background: rgb(0, 34, 46); 
+  border:  0px;
+  color: rgb(138, 233, 236);
+  /* opacity: 0.9; */
+}
+
+/* .panelheading {
+  font-size: 20px; 
+} */
+
+.btn {
+  background-color:  rgb(138, 233, 236, 0.5);
+  color: rgb(243, 74, 12);
+  font-weight: bolder
+}
+
+/* #submit-btn {
+  color:  rgb(138, 233, 236);
+} */
 
 #myName {
   text-align: center;
@@ -112,11 +138,42 @@ body {
   background-color: rgb(138, 233, 236, 0.5);
 }
 
+/*Menu Bar*/
+.menuBar {
+  background-color: #36454f;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  color: rgb(37, 165, 165);
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  font-size: 24px;
+  color: rgb(37, 165, 165);
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+a {
+  /* color: rgb(37, 165, 165); */
+  color: rgb(36, 76, 109);
+}
+
+a:hover {
+  /* color: rgb(36, 76, 109); */
+  color: rgb(37, 165, 165);
+}
+
+*/ [class*="col-"] {
+  width: 100%;
+}
+
 /* img {
   background-size: 100%;
 } */
 
-#resumeIcon {
+/* #resumeIcon {
   width: 18%;
   float: left;
 }
@@ -154,41 +211,11 @@ body {
 }
 
 #close {
-  /* text-align: center; */
+  text-align: center;
   margin: auto;
   width: 15%;
   color: rgb(243, 186, 81);
-}
-
-table {
-  padding: 0px;
-  color: rgb(138, 233, 236);
-  /* color: rgb(144, 92, 77); */
-  /* color:rgb(66, 6, 6); */
-  /* text-align: center; */
-}
-
-.form-group {
-  height: 100%;
-  /* color: rgb(208, 60, 72); */
-  color: rgb(138, 233, 236);
-}
-
-.add-name {
-  background: rgb(0, 34, 46, 0.75); 
-  border:  0px;
-  opacity: 0.9;
-}
-
-.btn {
-  background-color:  rgb(138, 233, 236, 0.5);
-  color: rgb(243, 74, 12);
-  font-weight: bolder
-}
-
-#submit-btn {
-  color:  rgb(138, 233, 236);
-}
+} */
 
 /*Modal Animation */
 @-webkit-keyframes animatetop {
@@ -213,37 +240,8 @@ table {
   }
 }
 
-/*Menu Bar*/
 
-.menuBar {
-  background-color: #36454f;
-  width: 100%;
-  height: 100%;
-  border-radius: 5px;
-  color: rgb(37, 165, 165);
-}
 
-ul {
-  list-style-type: none;
-  text-align: center;
-  font-size: 24px;
-  color: rgb(37, 165, 165);
-  font-family: Verdana, Geneva, sans-serif;
-}
-
-a {
-  /* color: rgb(37, 165, 165); */
-  color: rgb(36, 76, 109);
-}
-
-a:hover {
-  /* color: rgb(36, 76, 109); */
-  color: rgb(37, 165, 165);
-}
-
-*/ [class*="col-"] {
-  width: 100%;
-}
 
 /* @media screen and (max-width: 991px) {
   #profilePic {
