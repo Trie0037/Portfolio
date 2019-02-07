@@ -61,82 +61,87 @@
         id="topJumbotron"
         style="height: 100%; padding: 10px;"
       >
-      <div class="box">
+        <div class="box">
           <div class="row">
             <div class="col-md-12">
-      <div id="myName">
+              <div id="myName"></div>
+              <div style="background: rgb(0, 34, 46); border: 1px;">
+                <div
+                  class="emptyHeader"
+                  style="background-color:  rgb(208, 60, 72); color: rgb(138, 233, 236); padding: 2px;"
+                >
+                  <strong style="font-size: 20px">Response Info</strong>
+                </div>
+              </div>
+              <div>
+                <table id="table" class="table">
+                  <thead>
+                    <tr>
+                      <th>Your Name</th>
+                      <th>Email</th>
+                      <th>Employer</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              </div>
 
-        </div>
-        <div style="background: rgb(0, 34, 46); border: 1px;">
-          <div
-            class="emptyHeader"
-            style="background-color:  rgb(208, 60, 72); color: rgb(138, 233, 236); padding: 2px;">           
-            <strong style="font-size: 20px">Response Info</strong>
-       </div>
-         
-        </div>
-        <div>
-          <table id="table" class="table">
-            <thead>
-              <tr>
-                <th>Your Name</th>
-                <th>Email</th>
-                <th>Employer</th>
-              </tr>
-            </thead>
-            <tbody></tbody>
-          </table>
-        </div>
-       
-      <div class="add-name" style="border: 1px;">
-        <div
-          class="panelheading"
-          style="background-color: rgb(208, 60, 72); color: rgb(138, 233, 236); padding: 2px;"
-        >
-          <strong style="font-size: 20px">Add Name</strong>
-        </div>
-        <form style="padding: 5px;">
-          <div class="form-group">
-            <label for="your-name">Your Name:</label>
-            <input
-              type="text"
-              required
-              class="form-control"
-              id="your-name"
-              placeholder="Please type in your name." style="background: rgb(0, 34, 46);"
-            />
+              <div class="add-name" style="border: 1px;">
+                <div
+                  class="panelheading"
+                  style="background-color: rgb(208, 60, 72); color: rgb(138, 233, 236); padding: 2px;"
+                >
+                  <strong style="font-size: 20px">Add Name</strong>
+                </div>
+                <form style="padding: 5px;">
+                  <div class="form-group">
+                    <label for="your-name">Your Name:</label>
+                    <input
+                      type="text"
+                      required
+                      class="form-control"
+                      id="your-name"
+                      placeholder="Please type in your name."
+                      style="background: rgb(0, 34, 46);"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Your email:</label>
+                    <input
+                      type="text"
+                      required
+                      class="form-control"
+                      id="your-email"
+                      placeholder="Please type in your email."
+                      style="background: rgb(0, 34, 46);"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="employed">Employer:</label>
+                    <input
+                      type="text"
+                      required
+                      class="form-control"
+                      id="Employer"
+                      placeholder="Who is your employer?"
+                      style="background: rgb(0, 34, 46);"
+                    />
+                  </div>
+                  <button type="submit" class="btn btn-default" id="submit-btn">
+                    Submit
+                  </button>
+                </form>
+              </div>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="email">Your email:</label>
-            <input
-              type="text"
-              required
-              class="form-control"
-              id="your-email"
-              placeholder="Please type in your email." style="background: rgb(0, 34, 46);"
-            />
-          </div>
-          <div class="form-group">
-            <label for="employed">Employer:</label>
-            <input
-              type="text"
-              required
-              class="form-control"
-              id="Employer"
-              placeholder="Who is your employer?" style="background: rgb(0, 34, 46);"
-            />
-          </div>
-          <button type="submit" class="btn btn-default" id="submit-btn">Submit</button>
-        </form>
+        </div>
       </div>
     </div>
 
     <script src="https://code.jquery.com/jquery.js"></script>
 
-
     <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
 
-   
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 
     <!-- 992 X 705 Whitespace Jumping -->
