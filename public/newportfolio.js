@@ -35,7 +35,7 @@ $(document).ready(function () {
             href: "https://trie0037.github.io/GIPHY1/",
             img: "assets/images/Giphy.png",
             alt: "Joker"
-        }
+        },
     ];
 
     function createCard() {
