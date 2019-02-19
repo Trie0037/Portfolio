@@ -36,6 +36,12 @@ $(document).ready(function () {
             img: "assets/images/Giphy.png",
             alt: "Joker"
         },
+        {
+            title: "FriendMaker",
+            href: "https://friendmaker187.herokuapp.com/",
+            img: "assets/images/FF1 (3).png",
+            alt: "FaceSpace"
+        },
     ];
 
     function createCard() {
