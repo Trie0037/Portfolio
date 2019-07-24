@@ -1,2 +1,6 @@
-your_name = input("Enter your first name: ")
-print ("Hello, " + your_name + "!")
+import sys
+
+print("Hello World")
+sys.stdout.flush()
+
+
