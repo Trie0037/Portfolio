@@ -42,6 +42,12 @@ $(document).ready(function () {
             img: "assets/images/FF1 (3).png",
             alt: "FaceSpace"
         },
+        {
+            title: "Checklist",
+            href: "https://checklisted.herokuapp.com/",
+            img: "assets/images/checklist.png",
+            alt: "Workout"
+        },
     ];
 
     function createCard() {
