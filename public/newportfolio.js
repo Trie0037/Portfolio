@@ -48,6 +48,12 @@ $(document).ready(function () {
             img: "assets/images/checklist.png",
             alt: "Workout"
         },
+        {
+            title: "Bamazon",
+            href: "https://github.com/Trie0037/bamazon",
+            img: "assets/images/bamazon.png",
+            alt: "Inventory"
+        },
     ];
 
     function createCard() {
