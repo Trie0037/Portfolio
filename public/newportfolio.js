@@ -54,8 +54,14 @@ $(document).ready(function () {
             img: "assets/images/bamazon.png",
             alt: "Inventory"
         },
+        {
+            title: "TikTokTow",
+            href: "https://trie0037.github.io/tiktoktow/",
+            img: "assets/images/tictactoe.png",
+            alt: "X&O"
+        },
     ];
-
+    
     function createCard() {
         for(var i = 0; i < indyProjects.length; i++) {
             var row =("<br>")
