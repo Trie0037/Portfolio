@@ -21,3 +21,9 @@ app.listen(port, function(){
 pythonProcess.stdout.on('data', (data) => {
     console.log("data " + data);
 });
+
+var https = require("https");
+setInterval(function() {
+    https.get("https://safe-taiga-87184.herokuapp.com/");
+}, 300000); // ping app every 5 minutes (300000)
+
