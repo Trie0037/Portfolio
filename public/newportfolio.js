@@ -26,7 +26,7 @@ $(document).ready(function () {
         },
         {
             title: "REACTCLICKY",
-            href: "https://trie0037.github.io/ReactCLICKY/",
+            href: "https://southparkreactclicky.netlify.com/",
             img: "assets/images/SouthPark.png",
             alt: "Cartman"
         },
@@ -44,7 +44,7 @@ $(document).ready(function () {
         },
         {
             title: "Checklist",
-            href: "https://checklisted.herokuapp.com/",
+            href: "https://weekly-workout-checklist.netlify.com/",
             img: "assets/images/checklist.png",
             alt: "Workout"
         },
@@ -59,6 +59,12 @@ $(document).ready(function () {
             href: "https://trie0037.github.io/tiktoktow/",
             img: "assets/images/tictactoe.png",
             alt: "X&O"
+        },
+        {
+            title: "Afterclass",
+            href: "https://lifeafterclass.herokuapp.com/",
+            img: "assets/images/LAF.png",
+            alt: "Life After Class"
         },
     ];
     
